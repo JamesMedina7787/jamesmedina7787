@@ -24,10 +24,15 @@
 }
 
 .foldOver{
-  display:inline-flex;
+  flex: 1;
   width: 20%;
   background-color: black;
   color:white
+}
+
+.foldOverContainer{
+  display:inline-flex;
+  width: 100%
 }
 
 @keyframes App-logo-spin {
