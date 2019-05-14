@@ -27,13 +27,25 @@
   flex: 1;
   width: 20%;
   background-color: black;
-  color:white
+  color:white;
 }
 
 .foldOverContainer{
   display:inline-flex;
-  width: 100%
+  width: 100%;
+  list-style-type: none;
+
 }
+
+.blogContainer{
+  background-color: black;
+  font-family:wing-dings
+}
+
+.blog{
+  color: white;
+}
+
 
 @keyframes App-logo-spin {
   from {

@@ -5,7 +5,7 @@ class FoldOverItem4 extends Component {
     render() {
 
       return (
-        <div className="FoldOverItem">
+        <div>
           <p>{this.props.message}
           </p>
         </div>
