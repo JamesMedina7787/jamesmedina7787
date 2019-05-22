@@ -6,14 +6,38 @@ import FoldOverItem from  "./components/FoldOverItem"
 import FoldOverItem2 from "./components/FoldOverItem2"
 import FoldOverItem3 from "./components/FoldOverItem3"
 import FoldOverItem4 from "./components/FoldOverItem4"
+
+import Yama1 from  "./components/Yama1"
+import Yama2 from "./components/Yama2"
+import Yama3 from "./components/Yama3"
+import Yama4 from "./components/Yama4"
+import Yama5 from "./components/Yama5"
+
+import Niyama1 from  "./components/Niyama1"
+import Niyama2 from "./components/Niyama2"
+import Niyama3 from "./components/Niyama3"
+import Niyama4 from "./components/Niyama4"
+import Niyama5 from  "./components/Niyama5"
+
+import Pranyama from "./components/Pranyama"
+
 import {NavLink} from 'react-router-dom'
 import {BrowserRouter, Route, Switch, browserHistory} from "react-router-dom";
+
+import anahata from './pictures/anahata.jpg'
+import anja from './pictures/anja.jpg'
+import chakraSnakeImage from './pictures/chakra-snake-image.jpg'
+import lotusYogini from './pictures/lotus-Yogini.jpg'
+import lotus from './pictures/lotus.jpg'
+import lotus2 from './pictures/lotus2.png'
+import lotus3 from './pictures/lotus3.png'
+import ohm from './pictures/ohm.png'
+import prana from './pictures/prana.jpg'
+import SacralChakraSymbol1 from './pictures/Sacral-Chakra-Symbol-1.jpg'
+import vishudda from './pictures/vishudda.jpg'
+
 const superAgent = require('superagent')
-// const express = require('express')
 const url = 'http://omdbapi.com/?=star&y=&r=json'
-// const app = express()
-
-
 
 class App extends Component {
   constructor(){
