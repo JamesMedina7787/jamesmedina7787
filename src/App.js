@@ -2,24 +2,16 @@ import React, { Component } from 'react';
 import './App.css';
 import Yoga from "./components/Yoga"
 import Navigation from    "./components/Navigation"
+
 import FoldOverItem from  "./components/FoldOverItem"
 import FoldOverItem2 from "./components/FoldOverItem2"
 import FoldOverItem3 from "./components/FoldOverItem3"
 import FoldOverItem4 from "./components/FoldOverItem4"
 
-import Yama1 from  "./components/Yama1"
-import Yama2 from "./components/Yama2"
-import Yama3 from "./components/Yama3"
-import Yama4 from "./components/Yama4"
-import Yama5 from "./components/Yama5"
 
-import Niyama1 from  "./components/Niyama1"
-import Niyama2 from "./components/Niyama2"
-import Niyama3 from "./components/Niyama3"
-import Niyama4 from "./components/Niyama4"
-import Niyama5 from  "./components/Niyama5"
 
-import Pranyama from "./components/Pranyama"
+import Project from "./components/Project"
+
 
 import {NavLink} from 'react-router-dom'
 import {BrowserRouter, Route, Switch, browserHistory} from "react-router-dom";
@@ -33,8 +25,12 @@ import lotus2 from './pictures/lotus2.png'
 import lotus3 from './pictures/lotus3.png'
 import ohm from './pictures/ohm.png'
 import prana from './pictures/prana.jpg'
+import bow from './pictures/bow.jpg'
 import SacralChakraSymbol1 from './pictures/Sacral-Chakra-Symbol-1.jpg'
 import vishudda from './pictures/vishudda.jpg'
+import fb from "./pictures/fb.jpg"
+import scope from "./pictures/scope.png"
+
 
 const superAgent = require('superagent')
 const url = 'http://omdbapi.com/?=star&y=&r=json'
@@ -55,7 +51,18 @@ class App extends Component {
       console.log(JSON.stringify(response.body))
     })
   }
-
+  fetchFeed= function(){
+    superAgent.get(url)
+    .query(null)
+    .set('Accept', 'application/json')
+    .end((err, response) =>{
+      if(err){
+        console.log(err.message)
+        return
+      }
+      console.log(JSON.stringify(response.body))
+    })
+  }
   render() {
     return (
 
@@ -65,13 +72,12 @@ class App extends Component {
       <div className="App">
 
 
-<button onClick={this.fetchFeed.bind(this)}>Click here</button>
       <BrowserRouter >
        <Navigation  />
        <Switch >
 
 
-         <div className="">
+         <div className="blogContainer">
 
 
 
@@ -83,12 +89,8 @@ class App extends Component {
            <Route className='' path="/FoldOverItem" component={FoldOverItem}  >
            </Route>
 
-
-
            <Route className='foldOver' path="/FoldOverItem2" component={FoldOverItem2} >
            </Route>
-
-
 
            <Route  className='foldOver' path="/FoldOverItem3" component={FoldOverItem3}>
            </Route>
@@ -104,9 +106,17 @@ class App extends Component {
 
 
 
+<div>
+      <Project webSiteName="James W Medina" image={scope} url="/FoldOverItem"/>
 
+      <Project webSiteName="Links" image={lotus2} url="/FoldOverItem2"/>
+      <Project webSiteName="Schedule" image={ohm} url="/FoldOverItem3"/>
+      <Project webSiteName="Blog" image={chakraSnakeImage} url="/FoldOverItem4"/>
+</div>
 
       </div>
+
+
     );
   }
 }

@@ -9,8 +9,8 @@ class Niyama2 extends Component {
     render() {
 
       return (
-        <div className="blogContainer">
-          <p className="blog">{Niyama.intro}
+        <div className="NiyamaContainer">
+          <p className="Niyama">{Niyama.intro}
           </p>
         </div>
       );
