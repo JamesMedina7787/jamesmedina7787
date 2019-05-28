@@ -29,6 +29,7 @@
   width: 20%;
   background-color: black;
   color:white;
+  font-size: 3em;
 }
 
 .foldOverContainer{
@@ -53,22 +54,34 @@
   transform-origin: top;
 }
 
+#tenLimbs{
+  display: flex;
+  flex-direction: column;
+}
+
 .linksContainer{
   animation: 200ms ease-in 1 normal running forwards dropDown;
 transform-origin: top;
   padding: 1em;
-  display: flex;
+  display:inline-flex;
   background-color: black;
-  justify-content: space-around;
-  align-items: stretch;
+  align-items: stretch
+}
 
+.linksContainer2{
+  animation: 200ms ease-in 1 normal running forwards dropDown;
+transform-origin: top;
+  padding: 1em;
+  display:inline-flex;
+  background-color: black;
+  align-items: stretch
 }
 
 .linkStyle{
-
   background-color: black;
   width:200px;
-  height:200px
+  height:200px;
+  padding: .5em
 }
 .NiyamaContainer{
   font-family:wing-dings;

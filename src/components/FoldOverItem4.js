@@ -14,6 +14,7 @@ import Niyama5 from  "../components/Niyama5"
 import Pranyama from "../components/Pranyama"
 
 
+
 import {NavLink} from 'react-router-dom'
 import {BrowserRouter, Route, Switch, browserHistory} from "react-router-dom";
 
@@ -45,6 +46,9 @@ class FoldOverItem4 extends Component {
              </Route>
 
              <Route  className='' path="/Yama3" component={Yama3}>
+             </Route>
+
+             <Route  className='' path="/Niyama1" component={Niyama1}>
              </Route>
 
              <Route  className='' path="/Niyama2" component={Niyama2}>
