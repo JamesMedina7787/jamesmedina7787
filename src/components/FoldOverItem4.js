@@ -54,6 +54,8 @@ class FoldOverItem4 extends Component {
              <Route  className='' path="/Niyama2" component={Niyama2}>
              </Route>
 
+             <Route  className='' path="/Niyama3" component={Niyama3}>
+             </Route>
 
         </div>
            <Route component={Error}></Route>
