@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 
 var Yama = {
-  'intro': ``
+  'name':'Aparigraha',
+  'meaning':'Non Attachment',
+  'blog': ``
 }
 class Yama5 extends Component {
     render() {
 
       return (
         <div className="blogContainer">
-          <p className="blog">{Yama.intro}
+          <p className="blog">{Yama.blog}
           </p>
         </div>
       );
