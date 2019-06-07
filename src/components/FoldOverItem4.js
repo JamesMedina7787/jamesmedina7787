@@ -42,10 +42,19 @@ class FoldOverItem4 extends Component {
              </Route>
 
 
+             <Route className='' path="/Yama1" component={Yama1} >
+             </Route>
+
              <Route className='' path="/Yama2" component={Yama2} >
              </Route>
 
              <Route  className='' path="/Yama3" component={Yama3}>
+             </Route>
+
+             <Route className='' path="/Yama4" component={Yama4} >
+             </Route>
+
+             <Route className='' path="/Yama5" component={Yama5} >
              </Route>
 
              <Route  className='' path="/Niyama1" component={Niyama1}>
@@ -55,6 +64,12 @@ class FoldOverItem4 extends Component {
              </Route>
 
              <Route  className='' path="/Niyama3" component={Niyama3}>
+             </Route>
+
+             <Route  className='' path="/Niyama4" component={Niyama4}>
+             </Route>
+
+             <Route  className='' path="/Niyama5" component={Niyama5}>
              </Route>
 
         </div>

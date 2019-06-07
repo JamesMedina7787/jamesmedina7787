@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 var Yama = {
   'name':'Brahmacharia',
   'meaning':'Restraint',
-  'blog': ``
+  'blog': `Brahmacharia is`
 }
 class Yama4 extends Component {
     render() {
