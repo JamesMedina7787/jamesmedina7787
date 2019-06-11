@@ -99,6 +99,14 @@ transform-origin: top;
   padding: .5em
 }
 
+.linkStyle:hover{
+  animation: 1000ms 1 normal running forwards spins;
+  background-color: black;
+  width:200px;
+  height:200px;
+  padding: .5em
+}
+
 .NiyamaContainer{
   font-family:wing-dings;
 color:white;
@@ -121,12 +129,37 @@ color:white;
   transform-origin: top;
 }
 
+
+.Spins{
+
+  color: white;
+  padding: 3em;
+  font-weight: bold;
+
+}
+.Spins:hover{
+  animation: 1000ms 1 normal running forwards spins;
+
+  transform-origin: top;
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes spins {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(180deg);
   }
 }
 

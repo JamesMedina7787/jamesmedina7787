@@ -28,7 +28,7 @@ class Project extends Component {
       <section style={sectionStyle}>
        <label style={labelStyle}>{this.props.webSiteName}</label><br/>
        <a style={linkStyle} href={this.props.url} alt="James Medina JWM Porfolio">
-        <img style={imgStyle} src={this.props.image}/><br/>
+        <img className="Spins" style={imgStyle} src={this.props.image}/><br/>
          <br />
            <br/>
         </a>

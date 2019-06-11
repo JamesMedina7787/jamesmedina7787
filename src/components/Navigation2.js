@@ -16,16 +16,32 @@ class Navigation2 extends Component {
     return (
     <div id="tenLimbs">
       <div className="linksContainer">
-      <NavLink className="linkStyle"  to="/Yama1"><img className="linkStyle" src={ahimsa} /></NavLink><br/>
-            <NavLink className="linkStyle"  to="/Yama2"><img className="linkStyle" src={asteya} /></NavLink><br/>
+       <div className="ahimsa">
+        <NavLink className="linkStyle"  to="/Yama1"><img className="linkStyle" src={ahimsa} /></NavLink><br/>
+       </div>
+       <div>
+        <NavLink className="linkStyle"  to="/Yama2"><img className="linkStyle" src={asteya} /></NavLink><br/>
+       </div>
+       <div>
         <NavLink className="linkStyle"  to="/Yama3"><img className="linkStyle" src={satya} /></NavLink> <br/>
+       </div>
+       <div>
         <NavLink className="linkStyle"  to="/Yama4"><img className="linkStyle" src={brama} /></NavLink><br/>
+       </div>
       </div>
         <div className="linksContainer2">
-        <NavLink className="linkStyle"  to="/Niyama2"><img className="linkStyle" src={santosha} /></NavLink><br/>
-        <NavLink className="linkStyle"  to="/Niyama1"><img className="linkStyle" src={shaucha} /></NavLink><br/>
-        <NavLink className="linkStyle"  to="/Niyama3"><img className="linkStyle" src={fire} /></NavLink><br/>
+         <div>
+          <NavLink className="linkStyle"  to="/Niyama2"><img className="linkStyle" src={santosha} /></NavLink><br/>
+         </div>
+         <div>
+          <NavLink className="linkStyle"  to="/Niyama1"><img className="linkStyle" src={shaucha} /></NavLink><br/>
+         </div>
+         <div>
+          <NavLink className="linkStyle"  to="/Niyama3"><img className="linkStyle" src={fire} /></NavLink><br/>
+         </div>
+         <div>
                 <NavLink className="linkStyle"  to="/Niyama4"><img className="linkStyle" src={svad} /></NavLink><br/>
+         </div>
       </div>
     </div>
     );

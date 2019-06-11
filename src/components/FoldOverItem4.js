@@ -20,7 +20,14 @@ import {BrowserRouter, Route, Switch, browserHistory} from "react-router-dom";
 
 
 
+
 class FoldOverItem4 extends Component {
+  constructor(){
+    super()
+  }
+  flip = function(){
+    alert('hello?')
+          }
     render() {
 
       return (
@@ -38,38 +45,38 @@ class FoldOverItem4 extends Component {
              </Route>
 
 
-             <Route className='' path="/Pranyama" component={Pranyama}  >
+             <Route path="/Pranyama" component={Pranyama}  >
              </Route>
 
 
-             <Route className='' path="/Yama1" component={Yama1} >
+             <Route path="/Yama1" component={Yama1} >
              </Route>
 
-             <Route className='' path="/Yama2" component={Yama2} >
+             <Route path="/Yama2" component={Yama2} >
              </Route>
 
-             <Route  className='' path="/Yama3" component={Yama3}>
+             <Route path="/Yama3" component={Yama3}>
              </Route>
 
-             <Route className='' path="/Yama4" component={Yama4} >
+             <Route path="/Yama4" component={Yama4} >
              </Route>
 
-             <Route className='' path="/Yama5" component={Yama5} >
+             <Route path="/Yama5" component={Yama5} >
              </Route>
 
-             <Route  className='' path="/Niyama1" component={Niyama1}>
+             <Route path="/Niyama1" component={Niyama1}>
              </Route>
 
-             <Route  className='' path="/Niyama2" component={Niyama2}>
+             <Route path="/Niyama2" component={Niyama2}>
              </Route>
 
-             <Route  className='' path="/Niyama3" component={Niyama3}>
+             <Route path="/Niyama3" component={Niyama3}>
              </Route>
 
-             <Route  className='' path="/Niyama4" component={Niyama4}>
+             <Route path="/Niyama4" component={Niyama4}>
              </Route>
 
-             <Route  className='' path="/Niyama5" component={Niyama5}>
+             <Route  path="/Niyama5" component={Niyama5}>
              </Route>
 
         </div>

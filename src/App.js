@@ -7,7 +7,7 @@ import FoldOverItem from  "./components/FoldOverItem"
 import FoldOverItem2 from "./components/FoldOverItem2"
 import FoldOverItem3 from "./components/FoldOverItem3"
 import FoldOverItem4 from "./components/FoldOverItem4"
-
+import CSSTransitionGroup from "react-transition-group"
 
 
 import Project from "./components/Project"
@@ -35,11 +35,16 @@ import scope from "./pictures/scope.png"
 const superAgent = require('superagent')
 const url = 'http://omdbapi.com/?=star&y=&r=json'
 
+var grr = document.getElementsByClassName("App")
+
 class App extends Component {
   constructor(){
     super()
   }
-  fetchFeed= function(){
+
+
+
+   fetchFeed= function(){
     superAgent.get(url)
     .query(null)
     .set('Accept', 'application/json')
@@ -51,6 +56,9 @@ class App extends Component {
       console.log(JSON.stringify(response.body))
     })
   }
+
+
+
   fetchFeed= function(){
     superAgent.get(url)
     .query(null)
@@ -107,11 +115,10 @@ class App extends Component {
 
 
 <div>
-      <Project webSiteName="James W Medina" image={scope} url="/FoldOverItem"/>
-
-      <Project webSiteName="Links" image={lotus2} url="/FoldOverItem2"/>
-      <Project webSiteName="Schedule" image={ohm} url="/FoldOverItem3"/>
-      <Project webSiteName="Blog" image={chakraSnakeImage} url="/FoldOverItem4"/>
+      <Project className="Spins" webSiteName="James W Medina" image={scope} url="/FoldOverItem"/>
+      <Project className="Spins" webSiteName="Links" image={lotus2} url="/FoldOverItem2"/>
+      <Project className="Spins" webSiteName="Schedule" image={ohm} url="/FoldOverItem3"/>
+      <Project className="Spins" webSiteName="Blog" image={chakraSnakeImage} url="/FoldOverItem4"/>
 </div>
 
       </div>
