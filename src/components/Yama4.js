@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 var Yama = {
   'name':'Brahmacharia',
   'meaning':'Restraint',
-  'blog': `Brahmacharia is`
+  'blog': `Brahmacharia is denying ourselves bad habits. Traditionaly it is referred to as celibacy. It applies to all `
 }
 class Yama4 extends Component {
     render() {

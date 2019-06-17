@@ -96,7 +96,17 @@ transform-origin: top;
   background-color: black;
   width:200px;
   height:200px;
-  padding: .5em
+  padding: .5em;
+  z-index: 1;
+
+}
+
+.linkStyle2{
+  background-color: black;
+  width:200px;
+  height:200px;
+  padding: .5em;
+  z-index: 1;
 }
 
 .linkStyle:hover{
@@ -104,9 +114,22 @@ transform-origin: top;
   background-color: black;
   width:200px;
   height:200px;
-  padding: .5em
+  padding: .5em;
+    backface-visibility: hidden;
 }
 
+.flipBack{
+  position: relative
+}
+
+.flipDiv{
+  position:absolute;
+  top:0;
+  left:0
+}
+.ahimsa{
+  background-image: './pictures/Sacral-Chakra-Symbol-1.jpg'
+}
 .NiyamaContainer{
   font-family:wing-dings;
 color:white;
@@ -139,8 +162,9 @@ color:white;
 }
 .Spins:hover{
   animation: 1000ms 1 normal running forwards spins;
-
+  transform-style: preserve-3d;
   transform-origin: top;
+
 }
 
 

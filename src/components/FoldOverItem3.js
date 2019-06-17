@@ -9,22 +9,22 @@ class FoldOverItem3 extends Component {
 return(
       <div className="linksContainer">
       <a  href={'https://www.lafitness.com/pages/ClassSchedulePrintVersion.aspx?clubid=695&Yonkers-New%20York'} alt="YogiJWM">
-       <img  className="linkStyle" src={ridge}/><br/>
+       <img  className="linkStyle2" src={ridge}/><br/>
         <br />
           <br/>
        </a><br/>
        <a href={'https://www.lafitness.com/pages/ClassSchedulePrintVersion.aspx?clubid=681'} alt="YogiJWM">
-        <img  className="linkStyle" src={port}/><br/>
+        <img  className="linkStyle2" src={port}/><br/>
          <br />
            <br/>
         </a>
         <a href={'https://www.lafitness.com/pages/ClassSchedulePrintVersion.aspx?clubid=932'} alt="YogiJWM">
-         <img  className="linkStyle" src={bronx}/><br/>
+         <img  className="linkStyle2" src={bronx}/><br/>
           <br />
             <br/>
          </a>
          <a href={'https://mindbody.io/fitness/instructors/james-medina'} alt="YogiJWM">
-          <img  className="linkStyle" src={core}/><br/>
+          <img  className="linkStyle2" src={core}/><br/>
            <br />
              <br/>
           </a>
