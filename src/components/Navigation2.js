@@ -40,51 +40,51 @@ class Navigation2 extends Component {
     <div id="tenLimbs">
       <div className="linksContainer">
        <section className="flipBack">
-        <NavLink className="linkStyle"  to="/Yama1"><img className="linkStyle" src={ahimsa} />
-        <div className="flipDiv"><img className="linkStyle" src={ahi} /></div>
+        <NavLink className="linkStyle"  to="/Yama1"><img className="linkStyle" src={ahi} />
+        <div className="flipDiv"><img className="linkStyle" src={ahimsa} /></div>
       </NavLink><br/>
        </section>
        <section className="flipBack">
-        <NavLink className="linkStyle"  to="/Yama2"><img className="linkStyle" src={asteya} />
-        <div className="flipDiv"><img className="linkStyle" src={ast} /></div>
+        <NavLink className="linkStyle"  to="/Yama2"><img className="linkStyle" src={ast} />
+        <div className="flipDiv"><img className="linkStyle" src={asteya} /></div>
       </NavLink><br/>
        </section>
        <section className="flipBack">
-        <NavLink className="linkStyle"  to="/Yama3"><img className="linkStyle" src={satya} />
-        <div className="flipDiv"><img className="linkStyle" src={sat} /></div>
+        <NavLink className="linkStyle"  to="/Yama3"><img className="linkStyle" src={sat} />
+        <div className="flipDiv"><img className="linkStyle" src={satya} /></div>
       </NavLink><br/>
        </section>
        <section className="flipBack">
-        <NavLink className="linkStyle"  to="/Yama4"><img className="linkStyle" src={brama} />
-        <div className="flipDiv"><img className="linkStyle" src={bra} /></div>
+        <NavLink className="linkStyle"  to="/Yama4"><img className="linkStyle" src={bra} />
+        <div className="flipDiv"><img className="linkStyle" src={brama} /></div>
       </NavLink><br/>
        </section>
        <section className="flipBack">
-               <NavLink className="linkStyle"  to="/Yama5"><img className="linkStyle" src={apar} />
-               <div className="flipDiv"><img className="linkStyle" src={apa} /></div>
+               <NavLink className="linkStyle"  to="/Yama5"><img className="linkStyle" src={apa} />
+               <div className="flipDiv"><img className="linkStyle" src={apar} /></div>
              </NavLink><br/>
        </section>
       </div>
         <div className="linksContainer2">
          <section className="flipBack" >
-          <NavLink className="linkStyle"  to="/Niyama2"><img className="linkStyle" src={santosha} />
-          <div className="flipDiv"><img className="linkStyle" src={san} /></div></NavLink><br/>
+          <NavLink className="linkStyle"  to="/Niyama2"><img className="linkStyle" src={san} />
+          <div className="flipDiv"><img className="linkStyle" src={santosha} /></div></NavLink><br/>
          </section>
          <section className="flipBack">
-          <NavLink className="linkStyle"  to="/Niyama1"><img className="linkStyle" src={shaucha} />
-          <div className="flipDiv"><img className="linkStyle" src={sau} /></div></NavLink><br/>
+          <NavLink className="linkStyle"  to="/Niyama1"><img className="linkStyle" src={sau} />
+          <div className="flipDiv"><img className="linkStyle" src={shaucha} /></div></NavLink><br/>
          </section>
          <section className="flipBack">
-          <NavLink className="linkStyle"  to="/Niyama3"><img className="linkStyle" src={fire} />
-          <div className="flipDiv"><img className="linkStyle" src={tapa} /></div></NavLink><br/>
+          <NavLink className="linkStyle"  to="/Niyama3"><img className="linkStyle" src={tapa} />
+          <div className="flipDiv"><img className="linkStyle" src={fire} /></div></NavLink><br/>
          </section>
          <section className="flipBack">
-                <NavLink className="linkStyle"  to="/Niyama4"><img className="linkStyle" src={svad} />
-                <div className="flipDiv"><img className="linkStyle" src={sva} /></div></NavLink><br/>
+                <NavLink className="linkStyle"  to="/Niyama4"><img className="linkStyle" src={sva} />
+                <div className="flipDiv"><img className="linkStyle" src={svad} /></div></NavLink><br/>
          </section>
          <section className="flipBack">
-                 <NavLink className="linkStyle"  to="/Niyama5"><img className="linkStyle" src={isva} />
-                 <div className="flipDiv"><img className="linkStyle" src={ish} /></div></NavLink><br/>
+                 <NavLink className="linkStyle"  to="/Niyama5"><img className="linkStyle" src={ish} />
+                 <div className="flipDiv"><img className="linkStyle" src={isva} /></div></NavLink><br/>
          </section>
       </div>
     </div>

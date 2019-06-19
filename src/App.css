@@ -110,23 +110,37 @@ transform-origin: top;
 }
 
 .linkStyle:hover{
-  animation: 1000ms 1 normal running forwards spins;
-  background-color: black;
-  width:200px;
-  height:200px;
-  padding: .5em;
-    backface-visibility: hidden;
+
 }
 
 .flipBack{
-  position: relative
+  position: relative;
+}
+
+.flipBack:hover{
+  position: relative;
+  
 }
 
 .flipDiv{
   position:absolute;
   top:0;
-  left:0
+  left:0;
+  background-color: black;
+  width:200px;
+  height:200px;
+  padding: .5em;
+
 }
+.flipDiv:hover{
+  animation: 1000ms 1 normal running forwards spins90;
+  background-color: black;
+  width:200px;
+  height:200px;
+  padding: .5em;
+  backface-visibility: hidden;
+}
+
 .ahimsa{
   background-image: './pictures/Sacral-Chakra-Symbol-1.jpg'
 }
@@ -154,7 +168,6 @@ color:white;
 
 
 .Spins{
-
   color: white;
   padding: 3em;
   font-weight: bold;
@@ -164,7 +177,6 @@ color:white;
   animation: 1000ms 1 normal running forwards spins;
   transform-style: preserve-3d;
   transform-origin: top;
-
 }
 
 
@@ -184,6 +196,15 @@ color:white;
   }
   to {
     transform: rotateY(180deg);
+  }
+}
+
+@keyframes spins90 {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(90deg);
   }
 }
 

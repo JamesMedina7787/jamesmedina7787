@@ -10,6 +10,8 @@ class Yama5 extends Component {
 
       return (
         <div className="blogContainer">
+        <strong className="name">{Yama.name}</strong><br/>
+        <strong className="meaning">{Yama.meaning}</strong><br/>
           <p className="blog">{Yama.blog}
           </p>
         </div>

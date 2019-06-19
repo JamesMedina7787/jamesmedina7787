@@ -7,7 +7,7 @@ class Yoga extends Component {
       return (
         <div  className="Yoga">
         <p>{this.props.message}
-</p>
+        </p>
         </div>
       );
     }

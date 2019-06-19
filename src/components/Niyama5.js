@@ -11,6 +11,8 @@ class Niyama5 extends Component {
 
       return (
         <div className="NiyamaContainer">
+        <strong className="name">{Niyama.name}</strong><br/>
+        <strong className="meaning">{Niyama.meaning}</strong><br/>
           <p className="Niyama">{Niyama.blog}
           </p>
         </div>
