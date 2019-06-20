@@ -8,7 +8,7 @@ class FoldOverItem2 extends Component {
     render() {
 
       return (
-        <div className="linksContainer">
+        <div className="linksContainerLinks">
         <a  href={'https://www.instagram.com/jamesmedina7787/'} alt="James Medina JWM Porfolio">
          <img  className="linkStyle2" src={ig}/><br/>
           <br />

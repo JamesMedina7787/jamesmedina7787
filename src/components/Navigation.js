@@ -7,10 +7,7 @@ class Navigation extends Component {
     console.log()
     return (
       <div className="foldOverContainer">
-
-
-
-        <NavLink className="foldOver"  to="/FoldOverItem">Name</NavLink><br/>
+        <NavLink className="foldOver"  to="/FoldOverItem">About</NavLink><br/>
         <NavLink className="foldOver"  to="/FoldOverItem2">Links</NavLink> <br/>
         <NavLink className="foldOver"  to="/FoldOverItem3">Schedule</NavLink><br/>
         <NavLink className="foldOver"  to="/FoldOverItem4">Blog</NavLink><br/>

@@ -7,7 +7,7 @@ import core from "../pictures/core.jpg"
 class FoldOverItem3 extends Component {
     render() {
 return(
-      <div className="linksContainer">
+      <div className="linksContainerLocations">
       <a  href={'https://www.lafitness.com/pages/ClassSchedulePrintVersion.aspx?clubid=695&Yonkers-New%20York'} alt="YogiJWM">
        <img  className="linkStyle2" src={ridge}/><br/>
         <br />

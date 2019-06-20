@@ -71,6 +71,9 @@ font-size: 1.17em
 #tenLimbs{
   display: flex;
   flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  height: 340px
 }
 
 .linksContainer{
@@ -79,8 +82,12 @@ transform-origin: top;
   padding: 1em;
   display:inline-flex;
   background-color: black;
-  align-items: stretch
+  align-items: stretch;
+  width:100%;
+  height:120px
 }
+
+
 
 .linksContainer2{
   animation: 200ms ease-in 1 normal running forwards dropDown;
@@ -88,36 +95,72 @@ transform-origin: top;
   padding: 1em;
   display:inline-flex;
   background-color: black;
-  align-items: stretch
+  align-items: stretch;
+  width:100%;
+  height:120px
+}
+
+.linksContainerLocations{
+  animation: 200ms ease-in 1 normal running forwards dropDown;
+transform-origin: top;
+  padding: 1em;
+  display:inline-flex;
+  background-color: black;
+  align-items:center;
+  width:80%;
+  height:20%;
+  text-align: center;
+}
+
+.linksContainerLinks{
+  animation: 200ms ease-in 1 normal running forwards dropDown;
+transform-origin: top;
+  padding: 1em;
+  display:inline-flex;
+  background-color: black;
+  align-items:center;
+  width:80%;
+  height:240px;
+  text-align: center;
 }
 
 .linkStyle{
-  background-color: black;
-  width:200px;
-  height:200px;
-  padding: .5em;
-  z-index: 1;
 
+  background-color: black;
+
+  z-index: 1;
+  width:100%;
+height: 100px
 }
 
 .linkStyle2{
+margin:.5em;
+padding:1em;
   background-color: black;
-  width:200px;
-  height:200px;
-  padding: .5em;
+  width:100%;
+height:170px;
   z-index: 1;
 }
 
 .linkStyle:hover{
+  width:100%;
+height: 100px;
 
+  z-index: 1;
 }
 
 .flipBack{
   position: relative;
+  width:18%;
+  height:100px;
+  padding:.2em
 }
 
 .flipBack:hover{
   position: relative;
+width:18%;
+height: 100px;
+padding: .2em
 
 }
 
@@ -126,18 +169,19 @@ transform-origin: top;
   top:0;
   left:0;
   background-color: black;
-  width:200px;
-  height:200px;
-  padding: .5em;
-
+  width:100%;
+  height:100px;
+    padding: .2em;
 }
 .flipDiv:hover{
-  animation: 1000ms 1 normal running forwards spins90;
+  animation: 2000ms 1 normal running forwards fadeOut;
   background-color: black;
-  width:200px;
-  height:200px;
-  padding: .5em;
-  backface-visibility: hidden;
+  position: absolute;
+  width:100%;
+  height:100px;
+  padding: .2em;
+top:0;
+left:0
 }
 
 .ahimsa{
@@ -181,21 +225,21 @@ color:white;
 
 .name{
   color: white;
-  font-size: 2em;
+  font-size: 3em;
   opacity: 1;
 	animation-name: fadeIn;
 	animation-timing-function: ease-in;
-	animation-duration: 2s;
+  animation-duration: 3s;
 }
 
 .meaning{
-  color:white;
-  font-size: 2em;
+  color:lightblue;
+  font-size: 2.3em;
   opacity: 1;
   animation-name: fadeIn;
   animation-timing-function: ease-in;
-  animation-duration: 2s;
-  transition-delay: 6s
+  animation-duration: 8s;
+
 }
 
 
@@ -205,6 +249,16 @@ color:white;
   }
   100%{
     opacity:1
+  }
+
+}
+
+@keyframes fadeOut {
+  0%{
+    opacity: 1
+  }
+  100%{
+    opacity:0
   }
 
 }
