@@ -35,10 +35,14 @@
   color:white;
   font-size: 3em;
   list-style-type: none;
+  margin-right: 1em
 }
 
 .foldOverContainer > :nth-of-type(1n){
   border-right: 1px solid white;
+  text-align: center;
+  padding: 1em;
+  text-decoration: inherit;
 }
 
 .foldOverContainer > .foldOver:last-child{
@@ -51,7 +55,8 @@
   display:inline-flex;
   width: 100%;
   list-style-type: none;
-
+height: 170px;
+padding:1em;
 }
 
 .blogContainer{
