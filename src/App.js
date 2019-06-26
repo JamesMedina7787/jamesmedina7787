@@ -32,6 +32,7 @@ import fb from "./pictures/fb.jpg"
 import scope from "./pictures/scope.png"
 
 
+
 const superAgent = require('superagent')
 const url = 'http://omdbapi.com/?=star&y=&r=json'
 
@@ -80,6 +81,8 @@ class App extends Component {
       <div className="App">
 
 
+
+
       <BrowserRouter >
        <Navigation  />
        <Switch >
@@ -114,13 +117,14 @@ class App extends Component {
 
 
 
-<div>
+<div className="url">
       <Project className="Spins" webSiteName="James W Medina" image={scope} url="/FoldOverItem"/>
       <Project className="Spins" webSiteName="Links" image={lotus2} url="/FoldOverItem2"/>
       <Project className="Spins" webSiteName="Schedule" image={ohm} url="/FoldOverItem3"/>
       <Project className="Spins" webSiteName="Blog" image={chakraSnakeImage} url="/FoldOverItem4"/>
 </div>
-
+<div className="bowPic">
+</div>
       </div>
 
 
